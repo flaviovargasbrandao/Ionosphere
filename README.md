@@ -1,8 +1,5 @@
 # Ionosphere #
 Ionosphere is a Project to gather bands information and compile with predictive models the range impact from social media in the spotify plays and youtube subscribers
-
-Claro, aqui está o mesmo conteúdo do `README.md`, agora sem emojis e com uma formatação mais sóbria:
-
 ---
 
 ```markdown
