@@ -6,10 +6,12 @@ st.set_page_config(layout="wide")
 
 st.title("Grafico de videos do TikTok")
 
-query_params = st.experimental_get_query_params()
+# Obter dados da URL
+query_params = st.query_params()
 data_string  = query_params.get("data", [""])[0]
 
 if data_string:
+    # Decodificar a string de dados
     data - eval(decoded_string)
     df = pd.Dataframe(data)
     df.set_index("video", implace=True)
