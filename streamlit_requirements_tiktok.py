@@ -7,8 +7,8 @@ st.set_page_config(layout="wide")
 st.title("Grafico de videos do TikTok")
 
 # Obter dados da URL
-query_params = st.query_params()
-data_string  = query_params.get("data", [""])[0]
+query_params = st.query_params
+data_string  = query_params.get("data")
 
 if data_string:
     # Decodificar a string de dados
