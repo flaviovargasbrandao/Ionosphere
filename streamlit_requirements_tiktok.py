@@ -17,6 +17,6 @@ if data_string:
     df.set_index("video", implace=True)
 
     st.bar_chart(df)
-# Exibir os dados em uma tabela
+
 else:
     st.warning("nenhum dado encontrado. Por favor, forneça os dados no formato correto.")
